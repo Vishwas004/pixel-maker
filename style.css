@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+}
+.size{
+    height: 27px;
+    width: auto;
+    margin-right: 5px;
+    background-color: aquamarine;
+    border: solid 2px red;
+    color: rgba(255, 0, 0, 0.63);
+    border-radius: 5px;
+    padding: 2px;
+
+}
+.color{
+    margin-right: 5px;
+    background-color: aquamarine;
+    border: solid 2px red;
+    color: rgba(255, 0, 0, 0.63);
+    border-radius: 5px;
+    padding: 2px;
+
+}
+.ers{
+    height: 27px;
+    width: auto;
+    margin-right: 5px;
+    background-color: aquamarine;
+    border: solid 2px red;
+    color: rgba(255, 0, 0, 0.63);
+    border-radius: 5px;
+    padding: 2px;
+}
+.btn{
+    height: 27px;
+    width: auto;
+    margin-right: 5px;
+    background-color: aquamarine;
+    border: solid 2px red;
+    color: rgba(255, 0, 0, 0.63);
+    border-radius: 5px;
+    padding: 2px;
+}
+.container{
+    width: 1000px;
+    height: 1000px;
+    --size:4;
+    background-color:black ;
+    display: grid;
+    grid-template-columns: repeat(var(--size),1fr);
+    grid-template-rows: repeat(var(--size),1fr);
+    gap: 3px;
+    padding: 3px;
+}
+.box{
+    background-color: #393939;
+    border-radius: 5px;
+}
