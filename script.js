@@ -2,9 +2,11 @@ const container = document.querySelector(".container");
 const sizeEle = document.querySelector(".size");
 const color = document.querySelector(".color");
 const button = document.querySelector(".btn");
-const erser = document.querySelector(".ers");
+let eraseBtn = document.querySelector(".ers");
+let paintBtn =document.querySelector(".paint")
 let x= sizeEle.value;
 let drow=false;
+let erase=false;
 
 function addGride(){
     let x = prompt("Enter gird(24X24) number");
@@ -43,4 +45,11 @@ button.addEventListener("click",reset);
 sizeEle.addEventListener("keyup",function () {
     x= sizeEle.value;
     reset();
+});
+
+eraseBtn.addEventListener("click",() => {
+    erase= true;
+});
+paintBtn.addEventListener("click", () => {
+    erase= false;
 });
