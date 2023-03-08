@@ -19,19 +19,21 @@ body{
 .size{
     height: 27px;
     width: auto;
+    cursor: pointer;
     margin-right: 5px;
-    background-color: aquamarine;
-    border: solid 2px red;
-    color: rgba(255, 0, 0, 0.63);
+    text-align: center;
+    background-color: rgba(31, 222, 24, 0.647);
+    border: solid 2px black;
+    color: rgba(0, 76, 255, 0.851);
     border-radius: 5px;
     padding: 2px;
-
 }
 .color{
+    cursor: pointer;
     margin-right: 5px;
-    background-color: aquamarine;
-    border: solid 2px red;
-    color: rgba(255, 0, 0, 0.63);
+    background-color: rgba(31, 222, 24, 0.647);
+    border: solid 2px black;
+    color: rgba(0, 76, 255, 0.851);
     border-radius: 5px;
     padding: 2px;
 
@@ -39,20 +41,38 @@ body{
 .ers{
     height: 27px;
     width: auto;
+    cursor: pointer;
     margin-right: 5px;
-    background-color: aquamarine;
-    border: solid 2px red;
-    color: rgba(255, 0, 0, 0.63);
+    background-color: rgba(31, 222, 24, 0.647);
+    border: solid 2px black;
+    color: rgba(0, 76, 255, 0.851);
     border-radius: 5px;
     padding: 2px;
 }
+.ers :hover{
+    height: 30px;  
+    background-color: rgba(11, 11, 239, 0.902);
+}
+
 .btn{
     height: 27px;
     width: auto;
+    cursor: pointer;
     margin-right: 5px;
-    background-color: aquamarine;
-    border: solid 2px red;
-    color: rgba(255, 0, 0, 0.63);
+    background-color: rgba(31, 222, 24, 0.647);
+    border: solid 2px black;
+    color: rgba(0, 76, 255, 0.851);
+    border-radius: 5px;
+    padding: 2px;
+}
+.paint{
+    height: 27px;
+    cursor: pointer;
+    width: auto;
+    margin-right: 5px;
+    background-color: rgba(31, 222, 24, 0.647);
+    border: solid 2px black;
+    color: rgba(0, 76, 255, 0.851);
     border-radius: 5px;
     padding: 2px;
 }
